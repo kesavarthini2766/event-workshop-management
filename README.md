@@ -1,18 +1,33 @@
-# Salesforce DX Project: Next Steps
+# Salesforce Event / Workshop Management System (Admin Project)
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+## Project Overview
+This Salesforce Admin project manages Students, Events, and Registrations.
+It tracks event participation, monitors event capacity, and provides reporting insights.
 
-## How Do You Plan to Deploy Your Changes?
+## Objects & Data Model
+- Student__c
+- Event__c
+- Registration__c
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+Registration acts as a junction object with Master-Detail relationships
+to Student and Event.
 
-## Configure Your Salesforce DX Project
+## Key Features
+- Custom objects and fields
+- Master-Detail relationships
+- Roll-up summary fields
+- Validation rules
+- Custom list views
+- Lightning Record Pages
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+## Reports
+- Students Registered for Events
+- Events Near Full Capacity
 
-## Read All About It
+## Tools Used
+- Salesforce Admin
+- Salesforce DX
+- GitHub
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+## Project Type
+Salesforce Admin-Level Project (No Apex)
